@@ -19,6 +19,20 @@ Check out [example_zip.ipynb](https://github.com/CG-SHOP/pyutils26/blob/main/exa
 ---
 
 ## Installation
+### (monish) using uv [highly recommended!]
+```bash
+uv sync --reinstall-package cgshop2026-pyutils
+```
+
+If you don't have uv, highly recommend installing. Follow the instructions at [their site](https://docs.astral.sh/uv/getting-started/installation/).
+
+Run tests to confirm everything works:
+```bash
+pytest -q
+```
+
+---
+### Original Instructions
 
 Stable release (PyPI):
 ```bash
