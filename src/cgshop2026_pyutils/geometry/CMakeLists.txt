@@ -20,4 +20,4 @@ target_compile_definitions(_bindings PRIVATE PYBIND11_DETAILED_ERROR_MESSAGES)
 # move the compiled module to this folder. You can check with `python setup.py
 # build` how the package will look like and if the module is moved to the right
 # location.
-install(TARGETS _bindings DESTINATION ./src/cgshop2026_pyutils/geometry)
+install(TARGETS _bindings LIBRARY DESTINATION cgshop2026_pyutils/geometry)
